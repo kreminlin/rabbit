@@ -32,7 +32,7 @@ public class ConfirmConfig {
 
 
     //声明确认 Exchange 交换机的备份交换机
-    //备份交换机高于回退消息优先级
+    //备份交换机高于回退消息优先级1
     @Bean("confirmExchange")
     public DirectExchange confirmExchange() {
         ExchangeBuilder exchangeBuilder =
